@@ -1,0 +1,6 @@
+framework module NSAttributedString_Utils {
+  umbrella header "NSAttributedString-Utils-umbrella.h"
+
+  export *
+  module * { export * }
+}

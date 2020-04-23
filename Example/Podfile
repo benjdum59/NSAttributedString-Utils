@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NSAttributedString-Utils_Example' do
+  pod 'NSAttributedString-Utils', :path => '../'
+
+  target 'NSAttributedString-Utils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

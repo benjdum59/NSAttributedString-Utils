@@ -1,0 +1,16 @@
+PODS:
+  - NSAttributedString-Utils (0.1.0)
+
+DEPENDENCIES:
+  - NSAttributedString-Utils (from `../`)
+
+EXTERNAL SOURCES:
+  NSAttributedString-Utils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NSAttributedString-Utils: 09cc229d1203aadd60bf5adcd8877a68584b1215
+
+PODFILE CHECKSUM: a397e1b3b6d8a06ec3a0ab0cf027349c1241e71b
+
+COCOAPODS: 1.6.1
