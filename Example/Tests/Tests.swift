@@ -1,5 +1,5 @@
 import XCTest
-import NSAttributedString-Utils
+import NSAttributedString_Utils
 
 class Tests: XCTestCase {
     

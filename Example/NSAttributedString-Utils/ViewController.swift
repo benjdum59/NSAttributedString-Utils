@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import NSAttributedString_Utils
 
 class ViewController: UIViewController {
-
+    @IBOutlet var label1: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let font = UIFont.boldSystemFont(ofSize: 17)
+        let strings = ["(1)", "(3)"]
+        label1.attributedText = label1.attributedText?.exponentize(searchTexts: strings, font: font, baselineOffset: 10)
+
     }
 
     override func didReceiveMemoryWarning() {

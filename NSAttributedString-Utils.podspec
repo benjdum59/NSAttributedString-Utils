@@ -28,9 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/benjdum59/NSAttributedString-Utils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'NSAttributedString-Utils/Classes/**/*'
+
+  s.swift_version = '5.2'
   
   # s.resource_bundles = {
   #   'NSAttributedString-Utils' => ['NSAttributedString-Utils/Assets/*.png']
